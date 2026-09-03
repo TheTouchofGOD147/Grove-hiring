@@ -101,12 +101,18 @@ export default function Page() {
           
           </select>
 
-          <textarea name="experience" placeholder="Experience"></textarea>
+          <textarea name="Identification" placeholder="Identification"></textarea>
 
           <label className="upload">
-            Upload Resume
-            <input type="file" name="resume" />
+          Driver’s License (Front)
+          <input type="file" name="licenseFront" accept="image/*" />
           </label>
+
+       <label className="upload">
+        Driver’s License (Back)
+        <input type="file" name="licenseBack" accept="image/*" />
+       </label>
+
 
           <button disabled={loading}>
             {loading ? "Sending..." : "Submit Application"}
