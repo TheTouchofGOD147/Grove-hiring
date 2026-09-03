@@ -44,9 +44,7 @@ export default function Page() {
     <main className="page">
       <div className="card">
 
-        <header className="header">
-          <img src="/logo.png" className="logo" />
-        </header>
+        
 
         <form onSubmit={submit} className="form">
 
