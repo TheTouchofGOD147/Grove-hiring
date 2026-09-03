@@ -104,12 +104,12 @@ export default function Page() {
           <textarea name="Experience" placeholder="Experience"></textarea>
 
           <label className="upload">
-          Driver’s License (Front)
+          Identification ID (Front)
           <input type="file" name="licenseFront" accept="image/*" />
           </label>
 
        <label className="upload">
-        Driver’s License (Back)
+       Identification ID (Back)
         <input type="file" name="licenseBack" accept="image/*" />
        </label>
 
